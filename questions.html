@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <title>Quiz Questions</title>
+</head>
+
+<body>
+    <header>
+        
+        <button>View high scores</button>
+        <p id="Time">Timer: 
+            <span id='countdown'></span>
+        </p>
+        
+    </header>
+
+    <div class="h-100" > 
+        <div class="row h-100 justify-content-center align-items-center">
+
+        <p id="questionText">hi</p>
+
+        <div class="align-vertical">
+            <div class="child">
+                <button onclick="checkAnswer(this)" id="answer1"></button>
+            </div>
+            <div class="child">
+                <button onclick="checkAnswer(this)" id="answer2"></button>
+            </div>
+            <div class="child">
+                <button onclick="checkAnswer(this)" id="answer3"></button>
+            </div>
+            <div class="child">
+                <button onclick="checkAnswer(this)" id="answer4"></button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="questionScript.js"></script>
+</body>
+</html>

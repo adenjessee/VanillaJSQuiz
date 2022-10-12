@@ -1,0 +1,53 @@
+*  {
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+div, p, button {
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.start {
+    position: relative;
+    align-items:center;
+    box-sizing: border-box;
+    background-color: pink ;
+    padding: 20px;
+}
+
+.parent{
+    position: relative;
+    display: flexbox space-between;
+    background-color: light-blue;
+}
+
+.child {
+    margin: 10px;
+}
+
+.submit{
+    flex-direction: column;
+    padding-inline-end: 20px;
+}
+
+@media screen and (min-width: 500px) {
+    body {
+      color: black;
+    }
+  }
+  
+  @media screen and (min-width: 760px) {
+  }
+  
